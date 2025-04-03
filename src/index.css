@@ -1,0 +1,76 @@
+/* Reset and base styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  /* Centering the card */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #fff;
+    padding: 3rem 4rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Counter number */
+  .count {
+    font-size: 5rem;
+    color: #4f46e5;
+    margin: 1rem 0;
+    font-weight: bold;
+  }
+  
+  /* Button group */
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  /* Buttons */
+  .button {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+  
+  /* Add button */
+  .button.add {
+    background-color: #4f46e5;
+  }
+  
+  .button.add:hover {
+    background-color: #4338ca;
+  }
+  
+  /* Subtract button */
+  .button.sub {
+    background-color: #dc2626;
+  }
+  
+  .button.sub:hover {
+    background-color: #b91c1c;
+  }
+  
